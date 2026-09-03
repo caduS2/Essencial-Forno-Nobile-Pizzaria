@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-brand-orange: #EA580C;
+  --color-brand-orange-hover: #C2410C;
+  --color-brand-ice: #F8FAFC;
+  --color-brand-dark: #121417;
+  --color-brand-surface: #1A1E24;
+  --color-brand-surface-card: #222730;
+  --color-brand-border: #2E3642;
+  --color-brand-muted: #94A3B8;
+}
+
+:root {
+  --brand-orange: #EA580C;
+  --brand-ice: #F8FAFC;
+  --brand-dark: #121417;
+}
+
+body {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #121417;
+  color: #F8FAFC;
+}
+
+.font-heading {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

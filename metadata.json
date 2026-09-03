@@ -1,0 +1,6 @@
+{
+  "name": "Forno Nobile Pizzaria",
+  "description": "Conheça o cardápio demonstrativo da Forno Nobile Pizzaria e faça seu pedido de forma rápida pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
